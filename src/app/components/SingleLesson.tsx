@@ -70,7 +70,6 @@ export default function SingleLesson(props: any) {
         <div className='fade-in' style={{width: '100%', marginBottom: '20px'}}>
         <div className="row">
             <div className="col-sm">
-            <h4>Translate:</h4>
             </div>
             <div className="col-sm">
             </div>
@@ -81,6 +80,7 @@ export default function SingleLesson(props: any) {
                 </div>
             </div>
         </div>
+        <h4>Translate:</h4>
         <br></br>
         <strong><h4>{lessonData.russianPhrase}</h4></strong>
         <br></br>
