@@ -22,7 +22,7 @@ export default async function Categories(){
                 
         Object.entries(lessonCategories).map(([lessonKey, lessonValue])=>
             
-            <Card data={lessonValue}></Card>
+            <Card key={lessonValue} data={lessonValue}></Card>
             
             )
 

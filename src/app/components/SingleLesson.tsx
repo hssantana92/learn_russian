@@ -55,7 +55,7 @@ export default function SingleLesson(props: any) {
         <div className="modal-dialog">
             <div className="modal-content">
             <div className="modal-header">
-                <h1 className="modal-title fs-5" id="staticBackdropLabel">Sorry, that's incorrect</h1>
+                <h1 className="modal-title fs-5" id="staticBackdropLabel">Sorry, that&aposs incorrect</h1>
             </div>
             <div className="modal-body">
                 <text>{`${lessonData.russianPhrase} (${lessonData.englishPhonetic}) means `}</text><strong>{`${lessonData.englishTranslation[0]}`}</strong>
