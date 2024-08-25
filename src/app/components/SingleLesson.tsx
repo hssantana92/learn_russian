@@ -68,18 +68,10 @@ export default function SingleLesson(props: any) {
         </div>
 
         <div className='fade-in' style={{width: '100%', marginBottom: '20px'}}>
-        <div className="row">
-            <div className="col-sm">
-            </div>
-            <div className="col-sm">
-            </div>
-            <div className="col-sm" style={{textAlign: 'right'}}>
-            <h5>Completion</h5>
+        <h5>Completion</h5>
                 <div className="progress">
                     <div className="progress-bar progress-bar-striped bg-success" role="progressbar" style={{width: `${progress}%`}} aria-valuenow={progress} aria-valuemin={0} aria-valuemax={100}></div>
                 </div>
-            </div>
-        </div>
         <h4>Translate:</h4>
         <br></br>
         <strong><h4>{lessonData.russianPhrase}</h4></strong>
